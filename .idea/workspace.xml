@@ -4,29 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f472956b-174f-41cd-bda2-831d03b385ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/leo/admin/catalogo/application/UseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/leo/admin/catalogo/application/UseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/Identifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/test/java/com/leo/admin/catalogo/domain/category/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/leo/admin/catalogo/infrastructure/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/leo/admin/catalogo/infrastructure/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="f472956b-174f-41cd-bda2-831d03b385ce" name="Changes" comment="INi">
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/AggregateRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/category/CategoryID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/leo/admin/catalogo/domain/category/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,21 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_directory_selection": "C:/workspace/catalogovideo/leo-adm-catalogo/domain/src/main/java/com/leo/admin/catalogo/domain/category",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/workspace/catalogovideo/leo-adm-catalogo/domain/src/main/java/com/leo/admin/catalogo/domain/category&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.leo.admin.catalogo.domain" />
@@ -140,11 +128,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703277267373</updated>
-      <workItem from="1703277268626" duration="5650000" />
+      <workItem from="1703277268626" duration="6587000" />
+      <workItem from="1703358977242" duration="1076000" />
     </task>
+    <task id="LOCAL-00001" summary="INi">
+      <created>1703297387928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703297387928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="INi" />
+    <option name="LAST_COMMIT_MESSAGE" value="INi" />
   </component>
 </project>
