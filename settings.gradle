@@ -1,0 +1,5 @@
+rootProject.name = 'leo-adm-catalogo'
+include 'domain'
+include 'application'
+include 'infrastructure'
+
